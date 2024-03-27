@@ -3,17 +3,18 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: malee <malee@student.42.fr>                +#+  +:+       +#+         #
+#    By: malee <malee@42mail.sutd.edu.sg>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/06 02:48:12 by malee             #+#    #+#              #
-#    Updated: 2024/01/19 17:00:56 by malee            ###   ########.fr        #
+#    Updated: 2024/03/24 21:56:20 by malee            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
 SRCS =	ft_printf.c \
-		utils1.c \
+		ft_printf_char_utils.c \
+		ft_printf_integer_utils.c \
 
 OBJS = ${SRCS:%.c=%.o}
 
